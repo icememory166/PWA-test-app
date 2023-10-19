@@ -1,0 +1,13 @@
+body {
+  margin: 3;
+  overflow: hidden;
+}
+
+sky {
+  display: block;
+  background: black;
+  width: 200vw;
+  height: 300vh;
+}
+
+/*# sourceMappingURL=style.css.map */
