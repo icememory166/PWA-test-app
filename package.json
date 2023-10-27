@@ -2,12 +2,15 @@
   "devDependencies": {
     "@squoosh/cli": "^0.7.3",
     "bootstrap": "^5.3.2",
+    "csslint": "^1.0.5",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
     "sass": "^1.69.5"
   },
   "scripts": {
     "scss": "sass --no-source-map assets/scss/style.scss assets/css/style.css",
-    "watch:css": "onchange \"assets/scss/*.scss\" -- npm run scss"
+    "watch:sass": "onchange \"assets/scss/*.scss\" -- npm run scss",
+    "watch:css": "csslint assets/css/style.css assets/css/finalstyle.css",
+    "watch": "npm-run-all --parallel watch:*"
   }
 }
