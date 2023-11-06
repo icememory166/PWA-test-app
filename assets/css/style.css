@@ -1,5 +1,16 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333;
-  margin: 2;
+  background-color: oklch(92.06% 0.037 307);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#boat {
+  height: 300px;
+  width: 400px;
+  align-self: flex-end;
 }

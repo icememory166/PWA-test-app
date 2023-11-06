@@ -5,12 +5,15 @@
     "csslint": "^1.0.5",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "npm": "^7.0.0",
+    "node": "^16.0.0"
   },
   "scripts": {
     "scss": "sass --no-source-map assets/scss/style.scss assets/css/style.css",
     "watch:sass": "onchange \"assets/scss/*.scss\" -- npm run scss",
-    "watch:css": "csslint assets/css/style.css assets/css/finalstyle.css",
+    "watch:css": "csslint assets/css/style.css",
+    "squoosh": "npx squoosh-cli --mozjpeg '{quality:70}' assets/img -d dist/img",
     "watch": "npm-run-all --parallel watch:*"
   }
 }

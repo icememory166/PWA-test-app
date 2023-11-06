@@ -1,8 +1,22 @@
 $font-stack: Helvetica, sans-serif;
-$primary-color: #333;
+$primary-color: oklch(92.06% 0.037 307);
+$img-height: 300px;
+$img-width: 400px;
 
 body {
   font: 100% $font-stack;
-  color: $primary-color;
-  margin: 2;
+  background-color: $primary-color;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#boat {
+  height: $img-height;
+  width: $img-width;
+  align-self: flex-end;
+}
+
