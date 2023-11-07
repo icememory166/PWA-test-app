@@ -1,12 +1,11 @@
 {
   "name": "One of the websites of all time",
   "short_name": "App",
+  "start_url": "index.html",
   "theme_color": "#ebdff9",
   "background_color": "#ebdff9",
-  "display": "browser",
+  "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
