@@ -14,3 +14,7 @@ body {
   width: 400px;
   align-self: flex-end;
 }
+
+#counter {
+  align-self: center;
+}
