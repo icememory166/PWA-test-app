@@ -1,9 +1,12 @@
 // Perform install steps
 let CACHE_NAME = 'my-cache';
 let urlsToCache = [
-    'assets/css/style.css',    
-    'assets/images/boat.jpg',
-    'assets/js/index.js'
+    'assets/css/style.css',
+    'assets/css/style2.css',    
+    'dist/img/boat.jpg',
+    'dist/img/cat.jpg',
+    'assets/js/index.js',
+    'airvent.html'
 
     ];
 
